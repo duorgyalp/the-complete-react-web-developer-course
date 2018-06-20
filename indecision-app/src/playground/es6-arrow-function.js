@@ -1,5 +1,3 @@
-'use strict';
-
 function square(x) {
   return x * x;
 };
@@ -8,9 +6,8 @@ function square(x) {
 //   return x * x;
 // };
 
-var squareArrow = function squareArrow(x) {
-  return x * x;
-};
+const squareArrow = (x) => x * x;
+
 
 console.log(squareArrow(4));
 
@@ -19,8 +16,6 @@ console.log(squareArrow(4));
 //   return fullName.split(' ')[0];
 // }
 
-var getFirstName = function getFirstName(fullName) {
-  return fullName.split(' ')[0];
-};
+const getFirstName = (fullName) => fullName.split(' ')[0];
 
 console.log(getFirstName('Kongyot Rojphutthikul'));
